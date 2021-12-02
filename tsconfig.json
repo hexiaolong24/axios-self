@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNEXT",
+        "module": "ESNEXT",
+        "allowJs": true,
+        "outDir": "build",
+        "removeComments": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "preserveConstEnums": false,
+        "lib": ["DOM", "ES6"],
+        "declaration": true,
+        "declarationDir": "build/@types"
+    },
+    "include": ["src/**/*"],
+}
